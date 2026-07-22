@@ -31,10 +31,11 @@
 }
 
 .name {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.85rem;
   color: #fff;
   text-decoration: none;
+  letter-spacing: -0.01em;
 }
 
 .navList {
@@ -93,6 +94,8 @@
   font-size: 4.25rem;
   line-height: 1.2;
   margin-bottom: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .introText {

@@ -14,32 +14,50 @@ const PROJECTS = [
     live: "https://habit-tracker-ddgit.vercel.app/",
   },
   {
-    title: "Browser Notes App",
+    title: "Bible Memorization App",
     description:
-      "Experience effortless note-taking, featuring word and character counts, a stylish dark mode, organized tabs, and robust import/export capabilities.",
-    tech: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+      "A full-stack Bible memorization app with first-letter memory grid, flash cards, a study dashboard with streaks and coverage heatmaps, guest mode, and account authentication with per-user progress tracking.",
+    tech: ["React", "Supabase", "CSS Modules", "Vercel"],
     link: "#",
-    github: "https://github.com/ddelportgit/notes-app-1",
-    live: "https://ddelportgit.github.io/notes-app-1/",
+    github: "https://github.com/ddelportgit/bible-memory-project",
+    live: "https://bible-memory-project-chi.vercel.app/",
   },
   {
-    title: "Holy Bible App",
+    title: "AI Content Repurposing Tool",
     description:
-      "Explore the Bible with our API-driven app, where you can choose a version, navigate through books and chapters, and copy verses with a single click.",
-    tech: ["HTML", "CSS", "JavaScript", "Async/Await"],
+      "A React app that takes long-form content and uses the Gemini AI API to repurpose it into platform-specific formats.",
+    tech: ["React", "Tailwind CSS", "Gemini API", "Vercel"],
     link: "#",
-    github: "https://github.com/ddelportgit/bible-app-1",
-    live: "https://ddelportgit.github.io/bible-app-1/",
+    github: "https://github.com/ddelportgit/ai-repurposing-tool",
+    live: "https://ai-repurposing-tool.vercel.app/",
   },
-  {
-    title: "Weather Dashboard",
-    description:
-      "The weather app shows daily conditions, a 7-day forecast, and an 8-day hourly breakdown, all powered by a reliable API and featuring a sleek dark mode.",
-    tech: ["HTML", "CSS", "JavaScript", "REST API"],
-    link: "#",
-    github: "https://github.com/ddelportgit/weather-app-4",
-    live: "https://ddelportgit.github.io/weather-app-4/",
-  },
+  // {
+  //   title: "Browser Notes App",
+  //   description:
+  //     "Experience effortless note-taking, featuring word and character counts, a stylish dark mode, organized tabs, and robust import/export capabilities.",
+  //   tech: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+  //   link: "#",
+  //   github: "https://github.com/ddelportgit/notes-app-1",
+  //   live: "https://ddelportgit.github.io/notes-app-1/",
+  // },
+  // {
+  //   title: "Holy Bible App",
+  //   description:
+  //     "Explore the Bible with our API-driven app, where you can choose a version, navigate through books and chapters, and copy verses with a single click.",
+  //   tech: ["HTML", "CSS", "JavaScript", "Async/Await"],
+  //   link: "#",
+  //   github: "https://github.com/ddelportgit/bible-app-1",
+  //   live: "https://ddelportgit.github.io/bible-app-1/",
+  // },
+  // {
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "The weather app shows daily conditions, a 7-day forecast, and an 8-day hourly breakdown, all powered by a reliable API and featuring a sleek dark mode.",
+  //   tech: ["HTML", "CSS", "JavaScript", "REST API"],
+  //   link: "#",
+  //   github: "https://github.com/ddelportgit/weather-app-4",
+  //   live: "https://ddelportgit.github.io/weather-app-4/",
+  // },
 ];
 
 export default function Projects() {
