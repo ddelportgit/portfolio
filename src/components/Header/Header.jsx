@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import styles from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import headerPic from "../../assets/1.png";
+import headerPic from "../../assets/1.webp";
 
 const NAV_LINKS = [
   { label: "Work", href: "#work" },
