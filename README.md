@@ -83,6 +83,12 @@ Make sure you have Node.js and npm installed on your machine.
 
    The site will open at `http://localhost:5173`.
 
+5. **Production build**
+
+   ```sh
+   npm run build
+   ```
+
 ## 🚀 Deployment Link
 
 You can view the live version of this project here:
