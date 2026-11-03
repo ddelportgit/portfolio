@@ -1,4 +1,4 @@
-# [Your Name] - Portfolio Website
+# Donovan Delport - Portfolio Website
 
 > A modern, responsive personal portfolio website designed to showcase my skills, projects, and professional experience.
 
@@ -16,7 +16,7 @@ This project was built using the following technologies:
 - **Styling:** CSS Modules / Styled Components
 - **Animations:** CSS Transitions
 - **Icons:** FontAwesome
-- **Deployment:** [e.g., Vercel / Netlify / GitHub Pages]
+- **Deployment:** GitHub Pages
 - **Version Control:** Git & GitHub
 
 ## ✨ Features
@@ -34,16 +34,19 @@ Here is a preview of the portfolio in action:
 ### Home / Hero Section
 
 ![Home Page](./src/assets/screenshot%201.png)
-_Caption: The landing area with a brief introduction and call-to-action buttons._
+
+_Caption: The landing area with a brief introduction._
 
 ### Projects Section
 
 ![Projects Page](./src/assets/screenshot%202.png)
+
 _Caption: A grid layout showing my latest projects._
 
 ### Mobile View
 
 ![Mobile View](./src/assets/screenshot%203.png)
+
 _Caption: Fully responsive design on mobile devices._
 
 ## ⚙️ Installation Instructions
@@ -90,7 +93,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 You can view the live version of this project here:
 
-**[View Live Portfolio](https://www.your-website-url.com)**
+**[View Live Portfolio](https://ddelportgit.github.io/portfolio/)**
 
 ---
 
