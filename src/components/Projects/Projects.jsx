@@ -31,33 +31,6 @@ const PROJECTS = [
     github: "https://github.com/ddelportgit/ai-repurposing-tool",
     live: "https://ai-repurposing-tool.vercel.app/",
   },
-  // {
-  //   title: "Browser Notes App",
-  //   description:
-  //     "Experience effortless note-taking, featuring word and character counts, a stylish dark mode, organized tabs, and robust import/export capabilities.",
-  //   tech: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-  //   link: "#",
-  //   github: "https://github.com/ddelportgit/notes-app-1",
-  //   live: "https://ddelportgit.github.io/notes-app-1/",
-  // },
-  // {
-  //   title: "Holy Bible App",
-  //   description:
-  //     "Explore the Bible with our API-driven app, where you can choose a version, navigate through books and chapters, and copy verses with a single click.",
-  //   tech: ["HTML", "CSS", "JavaScript", "Async/Await"],
-  //   link: "#",
-  //   github: "https://github.com/ddelportgit/bible-app-1",
-  //   live: "https://ddelportgit.github.io/bible-app-1/",
-  // },
-  // {
-  //   title: "Weather Dashboard",
-  //   description:
-  //     "The weather app shows daily conditions, a 7-day forecast, and an 8-day hourly breakdown, all powered by a reliable API and featuring a sleek dark mode.",
-  //   tech: ["HTML", "CSS", "JavaScript", "REST API"],
-  //   link: "#",
-  //   github: "https://github.com/ddelportgit/weather-app-4",
-  //   live: "https://ddelportgit.github.io/weather-app-4/",
-  // },
 ];
 
 export default function Projects() {
@@ -78,7 +51,12 @@ export default function Projects() {
                 >
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
-                <a href={project.live} target="_blank" rel="noreferrer" aria-label="Live site">
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Live site"
+                >
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                 </a>
               </div>
