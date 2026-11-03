@@ -13,7 +13,7 @@ The site is built with a focus on performance, accessibility, and clean UI/UX de
 This project was built using the following technologies:
 
 - **Frontend Framework:** React.js
-- **Styling:** CSS Modules / Styled Components
+- **Styling:** CSS Modules
 - **Animations:** CSS Transitions
 - **Icons:** FontAwesome
 - **Deployment:** GitHub Pages
@@ -22,9 +22,8 @@ This project was built using the following technologies:
 ## ✨ Features
 
 - **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
-- **Project Showcase:** A dynamic grid displaying project thumbnails, descriptions, and links to live demos/source code.
+- **Project Showcase:** A dynamic grid displaying projects, descriptions, and links to live demos/source code.
 - **Smooth Scrolling:** Seamless navigation between sections (About, Skills, Projects, Contact).
-- **SEO Optimized:** Meta tags and semantic HTML implemented for better search engine ranking.
 - **Fast Loading:** Optimized assets and lazy loading for images.
 
 ## 📸 Screenshots
@@ -82,7 +81,7 @@ Make sure you have Node.js and npm installed on your machine.
    npm run dev
    ```
 
-   The site will open at `http://localhost:3000`.
+   The site will open at `http://localhost:5173`.
 
 ## 🚀 Deployment Link
 

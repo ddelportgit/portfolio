@@ -8,7 +8,6 @@ const SKILL_GROUPS = [
       "JavaScript (ES6+)",
       "Responsive design, Flexbox/Grid",
       "Accessibility basics, semantic HTML",
-      "TypeScript",
     ],
   },
   {
@@ -35,7 +34,7 @@ const SKILL_GROUPS = [
   },
   {
     category: "Currently Learning",
-    items: ["Testing (Vitest)", "Next.js"],
+    items: ["TypeScript", "Testing (Vitest)", "Next.js"],
   },
 ];
 
