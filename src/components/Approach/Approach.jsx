@@ -13,7 +13,8 @@ const APPROACH_STEPS = [
   },
   {
     title: "Refine the details",
-    description: "Once it works, I revisit it, tightening edge cases and polishing the interface.",
+    description:
+      "Once it works, I revisit it, tightening edge cases and polishing the interface.",
   },
 ];
 
@@ -22,11 +23,12 @@ export default function Approach() {
     <section id="approach" className={styles.approach}>
       <h2 className={styles.heading}>Approach</h2>
       <p className={styles.intro}>
-        Clean structure, thoughtful interfaces, and steady progress guide how I work.
+        Clean structure, thoughtful interfaces, and steady progress guide how I
+        work.
       </p>
       <div className={styles.grid}>
         {APPROACH_STEPS.map((step) => (
-          <div key={step.number} className={styles.card}>
+          <div key={step.title} className={styles.card}>
             <h3 className={styles.cardTitle}>{step.title}</h3>
             <p className={styles.cardDescription}>{step.description}</p>
           </div>
