@@ -48,6 +48,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="GitHub repository"
+                  title="Source code"
                 >
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -56,6 +57,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Live site"
+                  title="Live demo"
                 >
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                 </a>

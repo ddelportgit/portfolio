@@ -16,7 +16,7 @@ const SKILL_GROUPS = [
     items: [
       "React",
       "React Router, state management (Context)",
-      "Tailwind CSS / CSS Modules / styled-components",
+      "Tailwind CSS / CSS Modules",
       "Vite",
     ],
   },
@@ -31,16 +31,11 @@ const SKILL_GROUPS = [
   },
   {
     category: "Backend & Databases",
-    items: [
-      "Node.js, Express (basic Rest APIs)",
-      "PostgreSQL",
-      "REST APIs, JSON, fetch",
-      "Supabase",
-    ],
+    items: ["Node.js", "REST APIs, JSON, fetch", "Supabase"],
   },
   {
     category: "Currently Learning",
-    items: ["TypeScript", "Testing (Vitest)", "Next.js"],
+    items: ["Testing (Vitest)", "Next.js"],
   },
 ];
 

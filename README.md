@@ -66,11 +66,11 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone https://github.com/ddelportgit/portfolio.git
    ```
 2. **Navigate to the project directory:**
    ```sh
-   cd your-portfolio-repo
+   cd portfolio
    ```
 3. **Install dependencies:**
    ```sh
@@ -79,15 +79,10 @@ Make sure you have Node.js and npm installed on your machine.
 4. **Start the development server:**
 
    ```sh
-   npm start
+   npm run dev
    ```
 
    The site will open at `http://localhost:3000`.
-
-5. **Build for production:**
-   ```sh
-   npm run build
-   ```
 
 ## 🚀 Deployment Link
 
@@ -99,11 +94,7 @@ You can view the live version of this project here:
 
 ## 📬 Contact
 
-**Your Name**
+**Donovan Delport**
 
 - LinkedIn: [linkedin](https://www.linkedin.com/in/donovan-delport/)
 - Email: donovandelport123@gmail.com
-
----
-
-_Last Updated: [Month Year]_
