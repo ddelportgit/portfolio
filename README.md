@@ -52,15 +52,6 @@ _Caption: Fully responsive design on mobile devices._
 
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Steps
 
 1. **Clone the repository:**
@@ -87,6 +78,12 @@ Make sure you have Node.js and npm installed on your machine.
 
    ```sh
    npm run build
+   ```
+
+6. **Preview**
+
+   ```sh
+   npm run preview
    ```
 
 ## 🚀 Deployment Link
