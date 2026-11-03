@@ -2,20 +2,45 @@ import styles from "./Skills.module.css";
 
 const SKILL_GROUPS = [
   {
-    category: "Languages",
-    items: ["JavaScript", "TypeScript", "HTML", "CSS"],
+    category: "Frontend technologies",
+    items: [
+      "HTML5",
+      "JavaScript (ES6+)",
+      "Responsive design, Flexbox/Grid",
+      "Accessibility basics, semantic HTML",
+      "TypeScript",
+    ],
   },
   {
     category: "Frameworks & Libraries",
-    items: ["React", "Vite"],
+    items: [
+      "React",
+      "React Router, state management (Context)",
+      "Tailwind CSS / CSS Modules / styled-components",
+      "Vite",
+    ],
   },
   {
-    category: "Backend & Data",
-    items: ["Node.js", "Supabase"],
+    category: "Development Tools",
+    items: [
+      "Git & Github",
+      "VS Code, Browser DevTools",
+      "Figma",
+      "Vercel / GitHub Pages",
+    ],
   },
   {
-    category: "Tools",
-    items: ["Git", "GitHub", "VS Code"],
+    category: "Backend & Databases",
+    items: [
+      "Node.js, Express (basic Rest APIs)",
+      "PostgreSQL",
+      "REST APIs, JSON, fetch",
+      "Supabase",
+    ],
+  },
+  {
+    category: "Currently Learning",
+    items: ["TypeScript", "Testing (Vitest)", "Next.js"],
   },
 ];
 
