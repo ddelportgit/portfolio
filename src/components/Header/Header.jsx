@@ -34,7 +34,9 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    const sections = NAV_LINKS.map((link) => document.querySelector(link.href)).filter(Boolean);
+    const sections = NAV_LINKS.map((link) =>
+      document.querySelector(link.href),
+    ).filter(Boolean);
 
     const sectionObserver = new IntersectionObserver(
       (entries) => {
@@ -56,7 +58,11 @@ export default function Header() {
   return (
     <>
       <header ref={headerRef} className={styles.header} id="hero">
-        <img src={headerPic} alt="Portrait of Donovan Delport" className={styles.photo} />
+        <img
+          src={headerPic}
+          alt="Portrait of Donovan Delport"
+          className={styles.photo}
+        />
 
         <nav className={styles.nav}>
           <a href="#hero" className={styles.name}>
@@ -89,7 +95,9 @@ export default function Header() {
           </button>
         </nav>
 
-        <ul className={`${styles.heroDropdown} ${isMenuOpen ? styles.dropdownOpen : ""}`}>
+        <ul
+          className={`${styles.heroDropdown} ${isMenuOpen ? styles.dropdownOpen : ""}`}
+        >
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <a href={link.href} onClick={() => setIsMenuOpen(false)}>
@@ -98,17 +106,22 @@ export default function Header() {
             </li>
           ))}
           <li>
-            <a href="mailto:donovandelport123@gmail.com" onClick={() => setIsMenuOpen(false)}>
+            <a
+              href="mailto:donovandelport123@gmail.com"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Email
             </a>
           </li>
         </ul>
 
         <div className={styles.intro}>
-          <h1 className={styles.introHeading}>Crafting digital experiences with precision.</h1>
+          <h1 className={styles.introHeading}>
+            Building clean, responsive web interfaces.
+          </h1>
           <p className={styles.introText}>
-            I build fast, accessible, and visually compelling web interfaces. Passionate about clean
-            code and pixel-perfect design.
+            I build fast, accessible, and visually compelling web interfaces.
+            Passionate about clean code and pixel-perfect design.
           </p>
         </div>
       </header>
@@ -123,7 +136,10 @@ export default function Header() {
           <ul className={styles.navList}>
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className={activeSection === link.href ? styles.active : ""}>
+                <a
+                  href={link.href}
+                  className={activeSection === link.href ? styles.active : ""}
+                >
                   {link.label}
                 </a>
               </li>
@@ -143,7 +159,9 @@ export default function Header() {
           </button>
         </nav>
 
-        <ul className={`${styles.dropdown} ${isMenuOpen ? styles.dropdownOpen : ""}`}>
+        <ul
+          className={`${styles.dropdown} ${isMenuOpen ? styles.dropdownOpen : ""}`}
+        >
           {NAV_LINKS.map((link) => (
             <li key={link.href}>
               <a
